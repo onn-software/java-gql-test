@@ -114,7 +114,7 @@
 						<configuration>
 							<!-- all config options: https://github.com/kobylynskyi/graphql-java-codegen/blob/master/docs/codegen-options.md -->
 							<outputDir>${project.build.directory}/generated-sources/generated</outputDir>
-							<packageName>com.asml.ais.avp.timelineuiapi.graphql.model</packageName>
+							<packageName>software.onn.gqlexample.model</packageName>
 							<generatedLanguage>KOTLIN</generatedLanguage>
 							<customTypesMapping>
 								<Date>java.util.Date</Date>

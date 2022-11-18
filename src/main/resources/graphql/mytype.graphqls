@@ -7,21 +7,20 @@ type MyType {
 }
 
 type SubTypeA {
-    id:ID!
-    name:String!
+    id: ID!
+    name: String!
 }
 
 type SubTypeB {
-    id:ID!
-    name:String!
+    id: ID!
+    name: String!
 }
 
 type SubTypeC {
-    id:ID!
-    name:String!
+    id: ID!
+    name: String!
 }
 
 extend type Query {
     myTypes: [MyType!]!
 }
-
