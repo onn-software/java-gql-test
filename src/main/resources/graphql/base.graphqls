@@ -1,0 +1,5 @@
+directive @customResolver on FIELD_DEFINITION
+
+# The Root Query for the application
+type Query {
+}

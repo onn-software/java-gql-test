@@ -1,0 +1,27 @@
+type MyType {
+    id: ID!
+    field: String!
+    subTypeA: SubTypeA! @customResolver
+    subTypeB: SubTypeB!
+    subTypeC: SubTypeC
+}
+
+type SubTypeA {
+    id:ID!
+    name:String!
+}
+
+type SubTypeB {
+    id:ID!
+    name:String!
+}
+
+type SubTypeC {
+    id:ID!
+    name:String!
+}
+
+extend type Query {
+    myTypes: [MyType!]!
+}
+
